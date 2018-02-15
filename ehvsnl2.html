@@ -1,0 +1,60 @@
+<TITLE>EHVSN: The Challenge: Level 2</TITLE>
+<script language="javascript">
+<!--//
+/*This Script allows people to enter by using a form that asks for a
+UserID and Password*/
+function pasuser(form) {
+if (form.id.value=="EHVSN") { 
+if (form.pass.value=="lvl2") {              
+location="./ehvsnl3/l3.html" 
+} else {
+alert("Invalid Password")
+}
+} else {  alert("Invalid UserID")
+}
+}
+//-->
+</script>
+
+<link href="style.css" rel="stylesheet">
+
+<center>
+
+<table bgcolor="white" cellpadding="12" border="1">
+<tr>
+<td colspan="2">
+<center>
+<img src="guyfawkes_mask_001.jpg" alt="Guy Fawkes Mask"> 
+<br>
+<h1><i><b>Login Area</b></i></h1>
+</center>
+</td>
+</tr>
+
+<tr>
+<td>
+<h1><b>UserID:</b></h1>
+</td>
+
+<td>
+<form name="login"><input name="id" type="text"></td></tr>
+<tr>
+<td>
+
+<h1><b>Password:</b></h1>
+</td>
+<td>
+
+<input name="pass" type="password">
+</td>
+</tr>
+
+<tr>
+<td>
+<center><input type="button" value="Login" onClick="pasuser(this.form)"></center>
+</td>
+<td>
+
+<center>
+<input type="Reset"></form></td></tr></table>
+</center> 

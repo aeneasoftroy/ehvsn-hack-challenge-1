@@ -1,0 +1,8 @@
+pass1: itssoeasy
+pass2: EHVSN / lvl2
+pass3: the_EHVSN_challenge_completed
+
+bonus in level 3: there's more to the image you are now looking at, more than your eyes can see now, if you view it this way ...
+split the background img file, in the css you can find the url to the PNG, download it.
+using a hex editor, remove all the data before the PK header starts, save that as a .zip file.
+the .zip file is protected using a weak password (aaaaa), brute force it to get access.
