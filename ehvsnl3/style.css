@@ -1,5 +1,5 @@
 body {
-	background-image: url("background_001.png");
+	background-image: url("background_anonymous_001.png");
 	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
 	font-color: 00ff00;
 	font-size: 12px;
@@ -19,4 +19,3 @@ h1 {
 	font-weight: 500;
 	line-height: 26.4px;
 }
-
