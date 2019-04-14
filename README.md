@@ -19,4 +19,4 @@ Solution: https://youtu.be/5CCSP0siF1k
 Solution bonus: https://www.youtu.be/q31706UHpOQ
 
 
--- Stephan
+-- Steffan
